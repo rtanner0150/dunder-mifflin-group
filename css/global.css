@@ -2,3 +2,27 @@
 img{max-width:100%; height:auto;}
 body{font-size:14px; font-family:'Raleway', Arial, Helvetica, sans-serif; background-color:#eee; color:#000;}
 h1,h2,h3,h4,h5,h6{font-family:'Staatliches', 'Times New Roman', Times, serif;}
+main{min-height:100px; padding:30px 0;}
+
+.btn-primary, .btn-primary:focus{background-color:black; border-color:black;}
+.btn-primary a{color:white;}
+.btn-primary:hover{background-color:#333;}
+.btn-primary:hover a{color:white;}
+
+header{background:white; padding:15px 0;}
+header .link a{height:80px; display:flex; flex-direction:column; justify-content:center; font-weight:700;}
+header .link a span{vertical-align:middle;}
+
+footer{padding:30px 0; border-top:2px solid black;}
+footer .logo{order:2;}
+footer .address{order:1;}
+footer .copyright{order:3;}
+
+@media (max-width:991px){
+    header .link{margin:15px 0;}
+}
+@media (max-width:767px){
+    footer{text-align:center;}
+    footer .logo{order:0; max-width:300px;}
+    footer .address{margin:15px 0;}
+}

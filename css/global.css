@@ -16,7 +16,7 @@ header .link a span{vertical-align:middle;}
 footer{padding:30px 0; border-top:2px solid black;}
 footer .logo{order:2;}
 footer .address{order:1;}
-footer .copyright{order:3;}
+footer .copyright{order:3; text-align:right;}
 
 .page-title{margin-top:30px;}
 
@@ -34,6 +34,7 @@ footer .copyright{order:3;}
     footer{text-align:center;}
     footer .logo{order:0; max-width:300px;}
     footer .address{margin:15px 0;}
+    footer .copyright{text-align:center;}
 
     .highlight img{margin-bottom:30px;}
     #story-carousel-text{margin-bottom:30px;}

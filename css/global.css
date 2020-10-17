@@ -34,12 +34,14 @@ form.contact textarea{height:100px;}
 
 @media (max-width:991px){
     header .link{margin:15px 0;}
+    header .logo img{max-width:400px;}
 }
 @media (max-width:767px){
     header .link a{font-size:16px; height:65px;}
     header .logo img{max-width:200px;}
     footer{text-align:center;}
-    footer .logo{order:0; max-width:300px;}
+    footer .logo{order:0;}
+    footer .logo img{max-width:300px;}
     footer .address{margin:15px 0;}
     footer .copyright{text-align:center;}
 

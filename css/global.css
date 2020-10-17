@@ -27,6 +27,11 @@ footer .copyright{order:3; text-align:right;}
 #story-carousel-text .carousel-control-prev{float:left;}
 #story-carousel-text .carousel-control-next{float:right;}
 
+form.contact p{position:relative;}
+form.contact label{position:absolute;}
+form.contact input, form.contact textarea{margin-left:150px; width:250px;}
+form.contact textarea{height:100px;}
+
 @media (max-width:991px){
     header .link{margin:15px 0;}
 }
